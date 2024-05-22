@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-segmoe"
+description = "Unofficial implementation of [a/SegMoE: Segmind Mixture of Diffusion Experts](https://github.com/segmind/segmoe) for ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers"]
+
+[project.urls]
+Repository = "https://github.com/ZHO-ZHO-ZHO/ComfyUI-SegMoE"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SegMoE"
+Icon = ""
